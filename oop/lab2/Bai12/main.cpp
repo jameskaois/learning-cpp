@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 int main() {
-    int n; cout << "Nhap sl hs: "; cin >> n;
+    int n; cout << "Nhap so luong hoc sinh: "; cin >> n;
     vector<CHocSinh> ds(n);
     for(int i=0; i<n; i++) ds[i].Nhap();
     
